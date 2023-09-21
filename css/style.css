@@ -1,0 +1,247 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}  
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+a {
+    text-decoration: none;
+}  
+a:hover {
+    opacity: 0.6;
+}  
+ul,
+ol {
+    list-style-type: none;
+} 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 3px solid #c4f4f6;
+    background-color: #fff;
+}  
+header {
+    background-color: #01214f;
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.title_1 {
+    text-align: center;
+    padding: 43px 0 39px 0;
+}
+.g_list {
+    display: flex;
+    justify-content: center;
+    padding-right: 13px;
+}
+.g_item {
+   padding-bottom: 28px;
+}
+.g_link {
+    color: #fff;
+    padding-left: 24px;
+}
+.big_img {
+  margin-bottom: 55px;
+}
+.big_img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+section {
+    padding: 0 30px 100px 30px;
+}
+.title_2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #01214c;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    background-color: #c4f4f6;
+    padding: 16px 0 16px 50px;;
+}
+.nakama {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #0080a4;
+    padding: 100px 0;   
+}
+.star_red {
+    color: #d63636;
+}
+.star {
+    display: inline-block;
+    margin-left: 1em;
+}
+.news_dd {
+    font-size: 14px;
+}
+.news_dl {
+    padding: 50px 0;
+}
+.dai {
+    padding-top: 30px;
+}
+
+.fish {
+    padding-top: 102px;
+    background-color: #0080a4;
+    padding-bottom: 100px;
+
+}
+.fish_p1 {
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+} 
+.fish_p2 {
+    font-size: 14px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+.fish_list {
+    padding-bottom: 50px;
+}
+.fish_list img {
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.figu_item {
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+th,
+td {
+    border: 3px solid #808080;
+    width: 280px;
+    height: 57px;
+    padding-right: 20px;
+}
+
+.gyogun {
+    background-image: url(../images/fish-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.tabl {
+    border-collapse: collapse;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 57px;
+}
+.syou {
+    font-size: 13px;
+    line-height: 2.2;
+}
+
+footer {
+    height: 83px;
+    background-color: #01214f;
+}
+.small {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+.hyou_td {
+    text-align: end;
+    color: #333333;
+} 
+.hyou_th {
+    background-color: rgba(196,244,246,0.2);
+    color: #333333;
+
+} 
+
+
+@media (min-width: 769px) {
+    .title_1 {
+        padding-top: 30px;
+    }
+    .g_item {
+        padding-top: 44px;
+        font-size: 30px;
+    }
+    .header_box {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .big_img {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    section {
+        padding: 150px 20px;
+    }
+  
+    .title_2 {
+        padding: 35px 0 35px 75px;
+        font-size: 30px;
+        background-position: 50px center;
+    }
+    .news_dl {
+        padding-top: 50px;
+    }
+    .news_dt {
+        font-size: 20px;
+    }
+    .news_dd {
+        font-size: 16px;
+        
+    }
+  
+    .fish_p1,
+    .fish_p2 {
+        text-align: left;
+    }
+    .fish_midashi {
+        width: 548px;
+        height: auto;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .fish-list {
+        display: flex;
+        justify-content: center;
+    }
+    .item_2 {
+        padding-left: 65px;
+    }
+
+    .fish_img img {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 50px; 
+    }
+
+} 
